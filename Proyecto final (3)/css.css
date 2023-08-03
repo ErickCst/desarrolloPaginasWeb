@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.primero,.segundo,.tercero
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+h2 {
+  margin: 0;
+  text-align: center;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+h3 {
+  margin: 0;
+  text-align: center;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+p {
+  margin: 0;
+  text-align: justify;
+  font-size: 80%;
+  padding-top: 1rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}

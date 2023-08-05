@@ -20,6 +20,7 @@
   a:hover{
     text-decoration: underline;
     color: #D9138A;
+    filter: opacity(.7);
   }
  
   fieldset{
@@ -31,26 +32,46 @@
     color: white;
   }
 
+  table{
+    width: 800px;
+    height: 200px;
+    position:absolute;
+    left:130px;
+    letter-spacing: .5mm;
+    background-color: /*sin color*/;
+    filter:opacity(.99);   
+  }
+
+  td{
+    height: 50px;  
+  }
+
   #contenido1{
-    
+    text-align: right;
+    width: 20px;
   }
 
   #contenido2{
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
+    text-indent: 20px;
   }
 
   #contenido3{
-    font-size: 20px;
+    font-size: 30px;
+    text-align: right;
+    vertical-align: top;
+    text-indent: 75px;
   }
 
-  #contenido4{
-    font-size: 35px;
+  #contenido4,#contenido5{
+    font-size: 90px;
     font-weight: bold;
+    vertical-align: top;
   }
 
-  #contenido5{
-    font-size: 20px;
+  #contenido6{
+    font-size: 30px;
   }
 
   div{

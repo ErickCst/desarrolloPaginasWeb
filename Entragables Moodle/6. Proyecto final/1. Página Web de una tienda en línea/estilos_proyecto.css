@@ -1,27 +1,178 @@
 *{
-    text-align: center;
+    color: white;
+    background-size: cover;
+    font-family: arial;
 }
-nav{
-    text-align: left;
-    margin-right: 15%;
+header{
+    background-color: #E10600;
+    height: 70px;
+    display:flex;
+    align-items: center;
+}
+
+body{
+    background-color: #15151E;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.titulos{
+    text-align: center;
     text-transform: uppercase;
 }
 
+.parrafos{
+    text-align: center;
+}
+
+#logoencabezado{
+    width: 65%;
+    float: left;
+}
+
+#logof1{
+    float: left;
+    width: 20%;
+    height: auto;
+    text-indent: 0%;   /*sangria*/
+}
+
+#nav-enlaces{
+    float: right;
+    width: 80%;
+    height: auto;
+    text-transform: uppercase;   /*texto a mayusculas*/ 
+}
+
+a:hover{
+    color: white;
+    transform: scale(1.15);
+    display: inline-block;
+    transition:all 0.1  s ease-in;
+}
+
+#nav-botones1{
+    float: right;
+    width: 32%;
+    height: auto;
+    text-align: right;
+    margin-right: 2%;
+    
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 12px;   /*redondeado de borde*/
+    color: black;
+    border: none;
+    filter:opacity(.85);  
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
 a {
-    color: gray;
-    text-decoration: none;
+    text-decoration: none;   /*decoracion de hipervinculos*/
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 50px;
+}
+
+#cuadro0{
+    background-color: cadetblue;
+    background-image: url(images/aston-martin.avif);
+    background-size: cover;
+    max-width:100%;
+    height: 800px;
+}
+
+#cuadro0:hover{
+    filter: hue-rotate(90deg);
+    font-size: 103%;
+    transition:all 1.5s ease-in-out;
 }
 
 #cuadro1{
-background-color: darkolivegreen;
+    background-color: cornflowerblue;
+    width: auto;
+    height: 700px;
 }
 
+#cuadro1:hover{
+    font-size: 102%;
+    filter: contrast(120%);
+}
+
+#imagenc1{
+    background-image: url("images/rb19\(2\).jpg");
+    float: left;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+#textoc1{
+    width: 50%;
+    height: 100%;
+
+}
 #cuadro2{
-background-color: brown;
+    background-color: #523E2A;
+    width: 100%;
+    height: 400px;
+}
+
+#cuadro2:hover{
+    font-size: 102%;
+    filter: contrast(120%);
+}
+
+#imagenc2{
+    background-image: url("images/f1-75.webp");
+    float: left;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#textoc2{
+    float: right;
+    width: 50%;
+    height: 100%;
 }
 
 #cuadro3{
-background-color: cornflowerblue;
+    background-color: brown;
+    width: auto;
+height: 400px;
+}
+
+#cuadro3:hover{
+    font-size: 102%;
+    filter: contrast(120%);
+}
+
+#imagenc3{
+    background-image: url("images/Ferrari.jpg");
+    float: right;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#textoc3{
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+
+
+footer{
+    background-size: cover;
+    filter: invert(40%);
 }
